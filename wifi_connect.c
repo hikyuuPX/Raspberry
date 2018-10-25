@@ -122,7 +122,7 @@ void replace(char replace_id[], char replace_psk[])
 
 	int offset = 0;
 	int off_left = 0,off_right = 0;
-	FILE *fp = fopen("/etc/wpa_supplicant/test.conf", "r+");
+	FILE *fp = fopen("/etc/wpa_supplicant/wpa_supplicant.conf", "r+");
 	if(fp == NULL)
 	{
 		printf("file error\n");
